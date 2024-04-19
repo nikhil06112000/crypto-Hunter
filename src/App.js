@@ -1,11 +1,14 @@
 
-import './App.css';
+import About from './About';
+
+
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="App">
-    
-     <h1>cryto programme</h1>
+    <div>
+   <About />
+   
     </div>
   );
 }
